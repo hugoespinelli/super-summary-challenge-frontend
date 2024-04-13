@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../../bsfinder_logo.png"
+import logonyt from "../../poweredby_nytimes.png"
 import { List, ListItem, ListItemText, Typography, Box } from "@mui/material";
 
 function Sidebar({ genres }) {
   return (
     <Box
       sx={{
-        minWidth: 250,
+        minWidth: 220,
         borderRight: "1px solid #ccc",
-        height: "100vh",
+        height: "100%",
         padding: 2,
-        overflowY: "auto",
       }}
     >
       <Box sx={{ textAlign: "center", marginBottom: 2 }}>
@@ -30,6 +30,13 @@ function Sidebar({ genres }) {
           </ListItem>
         ))}
       </List>
+      <Box sx={{ textAlign: "center", marginBottom: 2 }}>
+        <img
+          src={logonyt}
+          alt="Logo"
+          style={{ maxWidth: "70%", height: "auto" }}
+        />
+      </Box>
     </Box>
   );
 }
