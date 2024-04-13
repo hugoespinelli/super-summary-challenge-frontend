@@ -1,17 +1,25 @@
 import React from "react";
+import logo from "../../bsfinder_logo.png"
 import { List, ListItem, ListItemText, Typography, Box } from "@mui/material";
 
 function Sidebar({ genres }) {
   return (
     <Box
       sx={{
-        width: 250, // Width of the sidebar
-        borderRight: "1px solid #ccc", // Optional: Add border for separation
-        height: "100vh", // Full height of the viewport
-        padding: 2, // Optional: Add padding
-        overflowY: "auto", // Enable vertical scrolling if content overflows
+        minWidth: 250,
+        borderRight: "1px solid #ccc",
+        height: "100vh",
+        padding: 2,
+        overflowY: "auto",
       }}
     >
+      <Box sx={{ textAlign: "center", marginBottom: 2 }}>
+        <img
+          src={logo}
+          alt="Logo"
+          style={{ maxWidth: "70%", height: "auto" }}
+        />
+      </Box>
       <List dense>
         {genres.map((genre) => (
           <ListItem key={genre.display_name} alignItems="flex-start" divider>
