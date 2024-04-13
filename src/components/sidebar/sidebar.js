@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../bsfinder_logo.png"
+
 import logonyt from "../../poweredby_nytimes.png"
 import { List, ListItem, ListItemText, Typography, Box } from "@mui/material";
 
@@ -8,18 +8,15 @@ function Sidebar({ genres }) {
     <Box
       sx={{
         minWidth: 220,
-        borderRight: "1px solid #ccc",
+        borderRight: "1px solid #FFE5E5",
         height: "100%",
         padding: 2,
+        paddingTop: "30%",
       }}
     >
-      <Box sx={{ textAlign: "center", marginBottom: 2 }}>
-        <img
-          src={logo}
-          alt="Logo"
-          style={{ maxWidth: "70%", height: "auto" }}
-        />
-      </Box>
+      <Typography variant="h6" color="text.primary" align="left">
+              Genres
+      </Typography>
       <List dense>
         {genres.map((genre) => (
           <ListItem key={genre.display_name} alignItems="flex-start" divider>
