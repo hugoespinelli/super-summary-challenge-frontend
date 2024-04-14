@@ -13,6 +13,26 @@ const theme = createTheme({
       contrastText: "#E0AED0",
     },
   },
+  typography: {
+    h1: {
+      fontFamily: "Playfair Display, serif",
+    },
+    h2: {
+      fontFamily: "Playfair Display, serif",
+    },
+    h3: {
+      fontFamily: "Playfair Display, serif",
+    },
+    h4: {
+      fontFamily: "Playfair Display, serif",
+    },
+    h5: {
+      fontFamily: "Playfair Display, serif",
+    },
+    h6: {
+      fontFamily: "Playfair Display, serif",
+    },
+  },
 });
 
 function App() {

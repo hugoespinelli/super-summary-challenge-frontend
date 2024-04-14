@@ -11,7 +11,7 @@ function Sidebar({ genres }) {
         borderRight: "1px solid #FFE5E5",
         height: "100%",
         padding: 2,
-        paddingTop: "30%",
+        paddingTop: "15%",
       }}
     >
       <Typography variant="h6" color="text.primary" align="left">
