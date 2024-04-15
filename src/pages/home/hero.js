@@ -1,4 +1,5 @@
 import React from "react";
+import "./hero.css";
 import { Box, Grid, Typography } from "@mui/material";
 
 // Define the Hero functional component
@@ -12,10 +13,16 @@ function Hero({ theme, heroImage, headline, subtitle }) {
             color="text.primary"
             align="left"
             gutterBottom
+            className="fadeInUp"
           >
             {headline}
           </Typography>
-          <Typography variant="subtitle2" align="left" color="text.secondary">
+          <Typography
+            variant="subtitle2"
+            align="left"
+            color="text.secondary"
+            className="fadeInUp"
+          >
             {subtitle}
           </Typography>
         </Grid>
@@ -24,6 +31,7 @@ function Hero({ theme, heroImage, headline, subtitle }) {
           <img
             src={heroImage}
             alt="Logo"
+            className="fadeInUp"
             style={{
               height: "100%",
               position: "absolute",
