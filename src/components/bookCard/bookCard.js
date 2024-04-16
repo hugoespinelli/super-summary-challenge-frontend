@@ -7,9 +7,12 @@ import {
   Typography,
   Chip,
 } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+
 import LinkButton from "../linkButton/linkButton";
 
-function BookCard({ title, author, bookImage, url, theme, labelNumber }) {
+function BookCard({ title, author, bookImage, url, labelNumber }) {
+  const theme = useTheme();
   return (
     <Card
       sx={{
@@ -18,6 +21,7 @@ function BookCard({ title, author, bookImage, url, theme, labelNumber }) {
         position: "relative",
       }}
       variant="outlined"
+      data-testid="book-card"
     >
       <Chip
         label={labelNumber + 1}

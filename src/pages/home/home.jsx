@@ -2,19 +2,17 @@ import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { useTheme } from "@mui/material/styles";
 
 import hero from "../../hero.png";
 import BestSellersAPI from "../../services/bestSellersAPI";
 import Sidebar from "../../components/sidebar/sidebar";
 import BookCard from "../../components/bookCard/bookCard";
-import Hero from "./hero";
+import Hero from "../../components/hero/hero";
 import BSLogo from "../../components/BSLogo/bslogo";
 
 function Home() {
   const [topSellers, setTopSellers] = useState([]);
   const [genres, setGenres] = useState([]);
-  const theme = useTheme();
 
   useEffect(() => {
     async function loadTopSellers() {
@@ -48,7 +46,6 @@ function Home() {
     <Box sx={{ flexGrow: 1 }}>
       <BSLogo />
       <Hero
-        theme={theme}
         heroImage={hero}
         headline="Choose Your Next
             Favorite Bestseller Books!"
@@ -59,9 +56,10 @@ function Home() {
           <Sidebar genres={genres} />
         </Grid>
         <Grid item sm={9}>
-          <Grid direction="row" spacing={2}>
+          <Grid container direction="row" spacing={2}>
             {topSellers.map((seller) => (
               <Grid
+                key={seller}
                 container
                 direction="row"
                 spacing={2}
@@ -85,7 +83,7 @@ function Home() {
                   {seller.books.map((book, i) => (
                     <Grid item sm={2.3}>
                       <BookCard
-                        theme={theme}
+                        key={book.author}
                         labelNumber={i}
                         title={book.title}
                         author={book.author}

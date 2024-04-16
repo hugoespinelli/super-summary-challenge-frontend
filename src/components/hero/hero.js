@@ -1,9 +1,10 @@
-import React from "react";
 import "./hero.css";
+import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
 
-// Define the Hero functional component
-function Hero({ theme, heroImage, headline, subtitle }) {
+function Hero({ heroImage, headline, subtitle }) {
+  const theme = useTheme();
   return (
     <Box sx={{ backgroundColor: theme.palette.ochre.light, height: "350px" }}>
       <Grid container sx={{ height: "100%" }}>
@@ -30,7 +31,7 @@ function Hero({ theme, heroImage, headline, subtitle }) {
         <Grid item sm={6} sx={{ position: "relative", height: "100%" }}>
           <img
             src={heroImage}
-            alt="Logo"
+            alt="hand holding books"
             className="fadeInUp"
             style={{
               height: "100%",
