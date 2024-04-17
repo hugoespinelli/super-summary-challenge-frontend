@@ -4,7 +4,6 @@ import mockBestSellers from "../api_mock_responses/overview.json"
 import mockGenres from "../api_mock_responses/names.json"
 
 
-const NUM_RETRIES = 1
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 
@@ -19,13 +18,13 @@ const apiClient = axios.create({
 class BestSellersAPI {
   static async fetchTopBestSellers() {
     try {
-      return mockBestSellers
-      // const response = await apiClient.get("/lists/overview.json", {
-      //   params: {
-      //     "api-key": API_KEY,
-      //   },
-      // });
-      // return response.data;
+      // return mockBestSellers
+      const response = await apiClient.get("/lists/overview.json", {
+        params: {
+          "api-key": API_KEY,
+        },
+      });
+      return response.data;
     } catch (error) {
       console.error("Error fetching TopBestSeller:", error);
       throw error;
@@ -34,13 +33,13 @@ class BestSellersAPI {
 
   static async fetchGenres() {
     try {
-      return mockGenres
-    //   const response = await apiClient.get("/lists/names.json", {
-    //     params: {
-    //       "api-key": API_KEY,
-    //     },
-    //   });
-    //   return response.data;
+      // return mockGenres
+      const response = await apiClient.get("/lists/names.json", {
+        params: {
+          "api-key": API_KEY,
+        },
+      });
+      return response.data;
     } catch (error) {
       console.error("Error fetching TopBestSeller:", error);
       throw error;

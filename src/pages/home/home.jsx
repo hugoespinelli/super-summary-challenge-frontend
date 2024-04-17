@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Snackbar from "@mui/material/Snackbar";
+import Pagination from "@mui/material/Pagination";
 
 import hero from "../../hero.png";
 import BestSellersAPI from "../../services/bestSellersAPI";
@@ -12,15 +13,31 @@ import Hero from "../../components/hero/hero";
 import BSLogo from "../../components/BSLogo/bslogo";
 
 const GENRES_NUM = 50;
-const BEST_SELLERS_GENRES_NUM = 5;
+const BEST_SELLERS_GENRES_PER_PAGE = 3;
 
 function Home() {
   const [topSellers, setTopSellers] = useState([]);
+  const [actualTopSellers, setActualTopSellers] = useState([]);
   const [genres, setGenres] = useState([]);
+  const [pagination, setPagination] = useState({
+    actualPage: 1,
+    pageCount: 0,
+  });
   const [notification, setNotification] = useState({
     is_open: false,
     message: "",
   });
+
+  function paginationClick(value) {
+    handleShowTopSellers(value, topSellers);
+    setPagination({ ...pagination, actualPage: value });
+  }
+
+  function handleShowTopSellers(actualPage, topSellers) {
+    const offset = (actualPage - 1) * BEST_SELLERS_GENRES_PER_PAGE;
+    const limit = actualPage * BEST_SELLERS_GENRES_PER_PAGE;
+    setActualTopSellers(topSellers.slice(offset, limit));
+  }
 
   useEffect(() => {
     async function loadTopSellers() {
@@ -28,7 +45,12 @@ function Home() {
         const {
           results: { lists },
         } = await BestSellersAPI.fetchTopBestSellers();
-        setTopSellers(lists.slice(0, BEST_SELLERS_GENRES_NUM));
+        setPagination({
+          pageCount: Math.ceil(lists.length / BEST_SELLERS_GENRES_PER_PAGE),
+          actualPage: 1,
+        });
+        setTopSellers(lists);
+        handleShowTopSellers(1, lists);
       } catch (error) {
         setNotification({
           is_open: true,
@@ -85,7 +107,7 @@ function Home() {
         </Grid>
         <Grid item sm={9}>
           <Grid container direction="row" spacing={2}>
-            {topSellers.map((seller, i) => (
+            {actualTopSellers.map((seller, i) => (
               <Grid
                 container
                 direction="row"
@@ -122,6 +144,15 @@ function Home() {
                 </Grid>
               </Grid>
             ))}
+          </Grid>
+          <Grid container justifyContent="center">
+            <Pagination
+              sx={{ marginTop: "24px" }}
+              page={pagination.actualPage}
+              count={pagination.pageCount}
+              color="secondary"
+              onChange={(_, value) => paginationClick(value)}
+            />
           </Grid>
         </Grid>
       </Grid>
