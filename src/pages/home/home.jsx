@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import Snackbar from "@mui/material/Snackbar";
 
 import hero from "../../hero.png";
 import BestSellersAPI from "../../services/bestSellersAPI";
@@ -10,9 +11,16 @@ import BookCard from "../../components/bookCard/bookCard";
 import Hero from "../../components/hero/hero";
 import BSLogo from "../../components/BSLogo/bslogo";
 
+const GENRES_NUM = 50;
+const BEST_SELLERS_GENRES_NUM = 5;
+
 function Home() {
   const [topSellers, setTopSellers] = useState([]);
   const [genres, setGenres] = useState([]);
+  const [notification, setNotification] = useState({
+    is_open: false,
+    message: "",
+  });
 
   useEffect(() => {
     async function loadTopSellers() {
@@ -20,9 +28,15 @@ function Home() {
         const {
           results: { lists },
         } = await BestSellersAPI.fetchTopBestSellers();
-        setTopSellers(lists.slice(0, 5));
+        setTopSellers(lists.slice(0, BEST_SELLERS_GENRES_NUM));
       } catch (error) {
-        console.error("Error loading top sellers:", error);
+        setNotification({
+          is_open: true,
+          message:
+            "Looks like you requested a lot of books!  \
+            We're taking a short break to catch up. Try refreshing  \
+            the page in a few seconds.",
+        });
       }
     }
 
@@ -33,9 +47,15 @@ function Home() {
     async function loadGenres() {
       try {
         const { results } = await BestSellersAPI.fetchGenres();
-        setGenres(results.slice(0, 50));
+        setGenres(results.slice(0, GENRES_NUM));
       } catch (error) {
-        console.error("Error loading genres:", error);
+        setNotification({
+          is_open: true,
+          message:
+            "Looks like you requested a lot of genres!  \
+            We're taking a short break to catch up. Try refreshing  \
+            the page in a few seconds.",
+        });
       }
     }
 
@@ -44,6 +64,14 @@ function Home() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
+      <Snackbar
+        open={notification.is_open}
+        autoHideDuration={5 * 1000}
+        onClose={() => {
+          setNotification({ is_open: false, message: "" });
+        }}
+        message={notification.message}
+      />
       <BSLogo />
       <Hero
         heroImage={hero}
@@ -57,9 +85,8 @@ function Home() {
         </Grid>
         <Grid item sm={9}>
           <Grid container direction="row" spacing={2}>
-            {topSellers.map((seller) => (
+            {topSellers.map((seller, i) => (
               <Grid
-                key={seller}
                 container
                 direction="row"
                 spacing={2}

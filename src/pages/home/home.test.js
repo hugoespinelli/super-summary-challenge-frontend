@@ -1,5 +1,5 @@
 import React from "react";
-import { getAllByTestId, render, waitFor } from "@testing-library/react";
+import { render, waitFor } from "@testing-library/react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 import Home from "./home";
