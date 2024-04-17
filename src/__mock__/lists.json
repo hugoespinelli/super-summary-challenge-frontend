@@ -1,0 +1,708 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+    "num_results": 15,
+    "last_modified": "2024-04-10T22:25:23-04:00",
+    "results": [
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 1,
+        "rank_last_week": 0,
+        "weeks_on_list": 1,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1538704439?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1538704439",
+            "isbn13": "9781538704431"
+          },
+          {
+            "isbn10": "1538768631",
+            "isbn13": "9781538768631"
+          },
+          {
+            "isbn10": "1538767449",
+            "isbn13": "9781538767443"
+          },
+          {
+            "isbn10": "153876864X",
+            "isbn13": "9781538768648"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "JUST FOR THE SUMMER",
+            "description": "Justin and Emma, whose exes find soulmates after breaking up with them, have a fling on a private island on Lake Minnetonka.",
+            "contributor": "by Abby Jimenez",
+            "author": "Ab Jimenez",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Forever",
+            "primary_isbn13": "9781538704431",
+            "primary_isbn10": "1538704439"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 2,
+        "rank_last_week": 1,
+        "weeks_on_list": 9,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1250178630?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1250178630",
+            "isbn13": "9781250178633"
+          },
+          {
+            "isbn10": "1250178657",
+            "isbn13": "9781250178657"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE WOMEN",
+            "description": "In 1965, a nursing student follows her brother to serve during the Vietnam War and returns to a divided America.",
+            "contributor": "by Kristin Hannah",
+            "author": "Kristin Hannah",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "St. Martin's",
+            "primary_isbn13": "9781250178633",
+            "primary_isbn10": "1250178630"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 3,
+        "rank_last_week": 0,
+        "weeks_on_list": 1,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593296370?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0593296370",
+            "isbn13": "9780593296370"
+          },
+          {
+            "isbn10": "0593296389",
+            "isbn13": "9780593296387"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "TABLE FOR TWO",
+            "description": "A collection of six short stories based in New York City around the year 2000 and a novella set during the Golden Age of Hollywood.",
+            "contributor": "by Amor Towles",
+            "author": "Amor Towles",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Viking",
+            "primary_isbn13": "9780593296370",
+            "primary_isbn10": "0593296370"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 4,
+        "rank_last_week": 2,
+        "weeks_on_list": 49,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1649374046?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1649374046",
+            "isbn13": "9781649374042"
+          },
+          {
+            "isbn10": "1649374089",
+            "isbn13": "9781649374080"
+          },
+          {
+            "isbn10": "1705085059",
+            "isbn13": "9781705085059"
+          },
+          {
+            "isbn10": "1705085032",
+            "isbn13": "9781705085035"
+          },
+          {
+            "isbn10": "1649376162",
+            "isbn13": "9781649376169"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "FOURTH WING",
+            "description": "Violet Sorrengail is urged by the commanding general, who also is her mother, to become a candidate for the elite dragon riders.",
+            "contributor": "by Rebecca Yarros",
+            "author": "Rebecca Yarros",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Red Tower",
+            "primary_isbn13": "9781649374042",
+            "primary_isbn10": "1649374046"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 5,
+        "rank_last_week": 3,
+        "weeks_on_list": 22,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1649374178?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1649374178",
+            "isbn13": "9781649374172"
+          },
+          {
+            "isbn10": "1705085083",
+            "isbn13": "9781705085080"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "IRON FLAME",
+            "description": "The second book in the Empyrean series. Violet Sorrengail’s next round of training might require her to betray the man she loves.",
+            "contributor": "by Rebecca Yarros",
+            "author": "Rebecca Yarros",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Red Tower",
+            "primary_isbn13": "9781649374172",
+            "primary_isbn10": "1649374178"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 6,
+        "rank_last_week": 7,
+        "weeks_on_list": 9,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1728296218?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1728296218",
+            "isbn13": "9781728296210"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE TEACHER",
+            "description": "A math teacher at Caseham High suspects there is more going on behind a scandal involving a teacher and a student.",
+            "contributor": "by Freida McFadden",
+            "author": "Freida McFadden",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Poisoned Pen",
+            "primary_isbn13": "9781728296210",
+            "primary_isbn10": "1728296218"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 7,
+        "rank_last_week": 12,
+        "weeks_on_list": 42,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1538742578?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1538742578",
+            "isbn13": "9781538742570"
+          },
+          {
+            "isbn10": "1538768542",
+            "isbn13": "9781538768549"
+          },
+          {
+            "isbn10": "1803144386",
+            "isbn13": "9781803144382"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE HOUSEMAID",
+            "description": "Troubles surface when a woman looking to make a fresh start takes a job in the home of the Winchesters.",
+            "contributor": "by Freida McFadden",
+            "author": "Freida McFadden",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Grand Central",
+            "primary_isbn13": "9781538742570",
+            "primary_isbn10": "1538742578"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 8,
+        "rank_last_week": 11,
+        "weeks_on_list": 19,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/168119628X?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "168119628X",
+            "isbn13": "9781681196282"
+          },
+          {
+            "isbn10": "1635577993",
+            "isbn13": "9781635577990"
+          },
+          {
+            "isbn10": "1501945920",
+            "isbn13": "9781501945922"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "A COURT OF SILVER FLAMES",
+            "description": "The fifth book in the Court of Thorns and Roses series. Nesta Archeron is forced into close quarters with a warrior named Cassian.",
+            "contributor": "by Sarah J. Maas",
+            "author": "Sarah J. Maas",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Bloomsbury",
+            "primary_isbn13": "9781635577990",
+            "primary_isbn10": "1635577993"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 9,
+        "rank_last_week": 8,
+        "weeks_on_list": 3,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0385550367?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0385550367",
+            "isbn13": "9780385550369"
+          },
+          {
+            "isbn10": "0385550375",
+            "isbn13": "9780385550376"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "JAMES",
+            "description": "A reimagining of “Adventures of Huckleberry Finn” shines a different light on Mark Twain's classic, revealing new facets of the character of Jim.",
+            "contributor": "by Percival Everett",
+            "author": "Percival Everett",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Doubleday",
+            "primary_isbn13": "9780385550369",
+            "primary_isbn10": "0385550367"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 10,
+        "rank_last_week": 0,
+        "weeks_on_list": 1,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593723678?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0593723678",
+            "isbn13": "9780593723678"
+          },
+          {
+            "isbn10": "0593723686",
+            "isbn13": "9780593723685"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE RULE BOOK",
+            "description": "An N.F.L. tight end and a sports agent, who were lovers in college, create rules to be able to work together but a wild night in Vegas changes their plans.",
+            "contributor": "by Sarah Adams",
+            "author": "Sarah Adams",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Dell",
+            "primary_isbn13": "9780593723678",
+            "primary_isbn10": "0593723678"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 11,
+        "rank_last_week": 5,
+        "weeks_on_list": 2,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0765382032?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0765382032",
+            "isbn13": "9780765382030"
+          },
+          {
+            "isbn10": "0765377063",
+            "isbn13": "9780765377067"
+          },
+          {
+            "isbn10": "1427251991",
+            "isbn13": "9781427251992"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE THREE-BODY PROBLEM",
+            "description": "Different groups form to help or fight a crumbling alien civilization coming to invade Earth; the basis of the streaming series. Translated by Ken Liu.",
+            "contributor": "by Cixin Liu",
+            "author": "Cixin Liu",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Tor",
+            "primary_isbn13": "9780765382030",
+            "primary_isbn10": "0765382032"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 12,
+        "rank_last_week": 0,
+        "weeks_on_list": 1,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/006307947X?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "006307947X",
+            "isbn13": "9780063079472"
+          },
+          {
+            "isbn10": "006307950X",
+            "isbn13": "9780063079502"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "CITY IN RUINS",
+            "description": "The third book in the Danny Ryan trilogy. Warring factions are revived when the dock worker turned casino mogul tries to build a dream resort on prime Vegas real estate.",
+            "contributor": "by Don Winslow",
+            "author": "Don Winslow",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Morrow",
+            "primary_isbn13": "9780063079472",
+            "primary_isbn10": "006307947X"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 13,
+        "rank_last_week": 6,
+        "weeks_on_list": 3,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0316499676?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0316499676",
+            "isbn13": "9780316499675"
+          },
+          {
+            "isbn10": "0316499692",
+            "isbn13": "9780316499699"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE #1 LAWYER",
+            "description": "A criminal defense attorney in Biloxi becomes the prime suspect in his wife’s murder.",
+            "contributor": "by James Patterson and Nancy Allen",
+            "author": "James Patterson and Nancy Allen",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Little, Brown",
+            "primary_isbn13": "9780316499675",
+            "primary_isbn10": "0316499676"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 14,
+        "rank_last_week": 9,
+        "weeks_on_list": 41,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1668026031?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "1668026031",
+            "isbn13": "9781668026038"
+          },
+          {
+            "isbn10": "166802604X",
+            "isbn13": "9781668026045"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "ICEBREAKER",
+            "description": "Anastasia might need the help of the captain of a college hockey team to get on the Olympic figure skating team.",
+            "contributor": "by Hannah Grace",
+            "author": "Hannah Grace",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Atria",
+            "primary_isbn13": "9781668026038",
+            "primary_isbn10": "1668026031"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Combined Print and E-Book Fiction",
+        "display_name": "Combined Print & E-Book Fiction",
+        "bestsellers_date": "2024-04-06",
+        "published_date": "2024-04-21",
+        "rank": 15,
+        "rank_last_week": 13,
+        "weeks_on_list": 20,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593441273?tag=thenewyorktim-20",
+        "isbns": [
+          {
+            "isbn10": "0593441273",
+            "isbn13": "9780593441275"
+          },
+          {
+            "isbn10": "0593441206",
+            "isbn13": "9780593441206"
+          },
+          {
+            "isbn10": "0593675118",
+            "isbn13": "9780593675113"
+          },
+          {
+            "isbn10": "0593740149",
+            "isbn13": "9780593740149"
+          },
+          {
+            "isbn10": "0593441192",
+            "isbn13": "9780593441190"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "HAPPY PLACE",
+            "description": "A former couple pretend to be together for the sake of their friends during their annual getaway in Maine.",
+            "contributor": "by Emily Henry",
+            "author": "Emily Henry",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Berkley",
+            "primary_isbn13": "9780593441190",
+            "primary_isbn10": "0593441192"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      }
+    ]
+  }

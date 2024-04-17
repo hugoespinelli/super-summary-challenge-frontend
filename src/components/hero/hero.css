@@ -1,0 +1,15 @@
+.fadeInUp {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10%);  /* Start from 100% below the viewport */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);  /* Animate to its original position */
+    }
+  }
+  
