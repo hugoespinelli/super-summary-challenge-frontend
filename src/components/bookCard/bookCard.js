@@ -33,7 +33,11 @@ function BookCard({ title, author, bookImage, url, labelNumber }) {
           color: theme.palette.ochre.main,
         }}
       />
-      <CardMedia sx={{ height: 250 }} image={bookImage} title={title} />
+      <CardMedia
+        sx={{ height: 250, backgroundSize: "cover" }}
+        image={bookImage}
+        title={title}
+      />
 
       <CardContent sx={{ height: "23%", paddingLeft: "30%" }}>
         <Typography

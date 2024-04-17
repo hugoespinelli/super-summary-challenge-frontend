@@ -128,7 +128,7 @@ function Home() {
                     {seller.list_name}
                   </Typography>
                 </Grid>
-                <Grid container item spacing={2}>
+                <Grid container item spacing={1}>
                   {seller.books.map((book, i) => (
                     <Grid item sm={2.3}>
                       <BookCard
