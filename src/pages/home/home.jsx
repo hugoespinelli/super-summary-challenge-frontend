@@ -55,9 +55,9 @@ function Home() {
         setNotification({
           is_open: true,
           message:
-            "Looks like you requested a lot of books!  \
-            We're taking a short break to catch up. Try refreshing  \
-            the page in a few seconds.",
+            "Looks like you requested a lot of books!" +
+            "We're taking a short break to catch up. Try refreshing " +
+            "the page in a few seconds."
         });
       }
     }
@@ -74,9 +74,9 @@ function Home() {
         setNotification({
           is_open: true,
           message:
-            "Looks like you requested a lot of genres!  \
-            We're taking a short break to catch up. Try refreshing  \
-            the page in a few seconds.",
+            "Looks like you requested a lot of genres!" +
+            "We're taking a short break to catch up. Try refreshing " +
+            "the page in a few seconds."
         });
       }
     }
